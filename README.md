@@ -1,8 +1,8 @@
+This project is online store for selling books, where user can see the products and place an order. The site administrator can add and delete books after Log-in, also admin can  see all orders that user made.
 For opening the project you need:
-1. Create database ìbookî  in phpMyAdmin;
-2. Import file:  book.sql for creating data base that is in archive.
-3. In data base ìbookî, in tab SQL paste query: 
+1. Create database ‚Äúbook‚Äù ;
+2. Import file:  book.sql.
+3. In data base ‚Äúbook‚Äù, in tab SQL paste query: 
 CREATE USER 'lena_diana'@'localhost' IDENTIFIED BY '12346';
  GRANT ALL PRIVILEGES ON * . * TO 'lena_diana'@'localhost';
-4. Paste folder  îbookî in:      C:\xampp\htdocs
-5. In browser enter: localhost/book/index.php
+4. Access to admin page using login: admin , password :admin. 
